@@ -1,4 +1,54 @@
-
-*{
-    background-color: darkred;
+/*
+Nemesis Color #ED1B24
+ */
+html {
+    height: 100%;
+    background: linear-gradient(to bottom, #f0424b, #bd0f18);
+}
+#container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    border: solid 5px dimgrey;
+    border-radius: 5px;
+    clear:none;
+}
+.development {
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    height: 200px;
+    margin-left: 10%;
+    width: 35%;
+    padding: 10px;
+    border: solid 5px dimgrey;
+    border-radius: 5px;
+    clear:none;
+}
+.aboutme {
+    float: right;
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    height: 200px;
+    margin-right: 10%;
+    width: 35%;
+    padding: 10px;
+    border: solid 5px dimgrey;
+    border-radius: 5px;
+    clear:none;
+}
+.title {
+    text-align: center;
+}
+.btn {
+    text-align: center;
+    margin: 0 auto;
+    width: 30%;
+    border: 5px solid dimgrey;
+    border-radius: 5px;
+}
+.btn:hover {
+    background: silver;
 }
