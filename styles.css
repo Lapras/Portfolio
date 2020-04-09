@@ -1,0 +1,65 @@
+/*navigation Container and nav buttons*/
+.navContainer {
+    display:flex;
+}
+.navButton {
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+/*quote container, image, and text styling*/
+.quoteContainer {
+    height: 15vw;
+    text-align: center;
+}
+.quoteImg {
+    text-align: center;
+    height: 100px;
+}
+.quoteText {
+    text-align: center;
+}
+
+/* Standardized 1:3 layout sections and their styling*/
+.standardContainer {
+    display: flex;
+}
+.standardTextBox {
+    flex-grow: 1;
+    flex-shrink: 3;
+}
+.standardImageBox {
+    flex-basis: 100px;
+    flex-grow: 3;
+    flex-shrink: 3;
+}
+.standardImg {
+    width: 100%;
+}
+/*header Container and header content*/
+.headerContainer {
+    display:flex;
+}
+.headerName {
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+.headerContact {
+    flex-shrink: 1;
+    flex-grown: 1;
+}
+
+/*about me image+caption portion*/
+#aboutContainer {
+
+}
+#aboutText {
+    position: absolute;
+    top: 200px;
+    left: 40px;
+}
+#selfPic {
+    width:100%;
+    position:relative;
+}
+
