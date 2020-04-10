@@ -1,32 +1,131 @@
+/*full CSS reset gotten from meyerweb*/
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*resetting link styling*/
+a:link {color: #e7e8e8; text-decoration: none; }
+a:active {color: #e7e8e8; text-decoration: none; }
+a:visited {color: #e7e8e8; text-decoration: none; }
+a:hover {color: #e7e8e8; text-decoration: none; }
+
+/*Link coloring for the email link*/
+#emailLink:link {
+    color:  #0000EE;
+    text-decoration: underline;
+}
+#emailLink:visited {
+    color:  #551A8B;;
+    text-decoration: underline;
+}
+#emailLink:active {
+    color:  #e7e8e8;
+    text-decoration: underline;
+}
+/* header Gradient*/
+header {
+    background: linear-gradient(#af1f0f, #de0f0f);
+}
+
 /*navigation Container and nav buttons*/
 .navContainer {
     display:flex;
+    margin: 0px 2vw;
 }
 .navButton {
     flex-shrink: 1;
     flex-grow: 1;
+    margin: 5px 1vw;
+    border-color: black;
+    border-radius: 20px;
+    background-color: #40403f;
+    color: #e7e8e8;
+    font-size: 16px;
 }
 
 /*quote container, image, and text styling*/
 .quoteContainer {
-    height: 15vw;
+    height: 25vh;
     text-align: center;
+    background-color: #40403f;
 }
 .quoteImg {
     text-align: center;
     height: 100px;
 }
 .quoteText {
+    font-size: 48px;
     text-align: center;
 }
 
-/* Standardized 1:3 layout sections and their styling*/
+/* Standardized 1:3 layout sections and their styling, the "sub" level text box creates a simple way to create a smaller wrapper for text content
+Having a right-side text standard content simply uses .left as a class, making the flex flow row-reverse*/
 .standardContainer {
+    background-color: #c7170f;
     display: flex;
+}
+.left {
+    flex-flow: row-reverse;
 }
 .standardTextBox {
     flex-grow: 1;
-    flex-shrink: 3;
+    flex-shrink: 1;
+    font-size: 20px;
+    color: #111111;
+    text-align: center;
+    content-align: center;
+}
+.standardTextBoxSub {
+    text-align: center;
+    border: #111111 solid;
+    border-radius: 40px;
+    width: 50%;
+    margin: 30% auto;
 }
 .standardImageBox {
     flex-basis: 100px;
@@ -35,31 +134,50 @@
 }
 .standardImg {
     width: 100%;
+    height: 100%;
 }
+.standardButton {
+    flex-shrink: 1;
+    flex-grow: 1;
+    margin: 5px 1vw;
+    border-color: black;
+    border-radius: 20px;
+    background-color: #40403f;
+    color: #e7e8e8;
+    font-size: 16px;
+}
+
 /*header Container and header content*/
 .headerContainer {
     display:flex;
+    color: #111111;
 }
 .headerName {
     flex-shrink: 1;
     flex-grow: 1;
+    font-size: 42px;
+    font-weight: bold;
 }
 .headerContact {
     flex-shrink: 1;
     flex-grown: 1;
+    font-size: 36px;
+    font-wieght: bold;
 }
 
 /*about me image+caption portion*/
 #aboutContainer {
-
+    height: 40vh;
 }
 #aboutText {
     position: absolute;
     top: 200px;
     left: 40px;
+    color: #e7e8e8;
 }
 #selfPic {
     width:100%;
+    height: 100%;
     position:relative;
 }
 
