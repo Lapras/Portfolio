@@ -19,11 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e304270b-e380-469b-936f-03015d58212b" name="Default Changelist" comment="4/9: Styles and systems for standard sections, about me and home section, nav, only organization so far. Index has been given all essential organization to make the content look good, still slightly janky-ish&#10;&#10;4/9 devblog and TODO update">
+    <list default="true" id="e304270b-e380-469b-936f-03015d58212b" name="Default Changelist" comment="4/10 devblog and TODO&#10;&#10;4/10: Implemnted majority of layout and design, as well as a lot of styling and coloring. It looks not ugly now!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TODO" beforeDir="false" afterPath="$PROJECT_DIR$/TODO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devBlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/devBlog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +60,7 @@
       <workItem from="1586395178635" duration="2761000" />
       <workItem from="1586443830208" duration="5733000" />
       <workItem from="1586485512499" duration="972000" />
-      <workItem from="1586530550999" duration="2803000" />
+      <workItem from="1586530550999" duration="2978000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit, Devblog for 4/9.">
       <created>1586443901167</created>
@@ -86,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586456534801</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="4/10 devblog and TODO&#10;&#10;4/10: Implemnted majority of layout and design, as well as a lot of styling and coloring. It looks not ugly now!">
+      <created>1586533394318</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586533394318</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,7 +112,8 @@
     <MESSAGE value="Initial Commit, Devblog for 4/9." />
     <MESSAGE value="4/9: Styles and systems for standard sections, about me and home section, nav, only organization so far. Index has been given all essential organization to make the content look good, still slightly janky-ish" />
     <MESSAGE value="4/9: Styles and systems for standard sections, about me and home section, nav, only organization so far. Index has been given all essential organization to make the content look good, still slightly janky-ish&#10;&#10;4/9 devblog and TODO update" />
-    <option name="LAST_COMMIT_MESSAGE" value="4/9: Styles and systems for standard sections, about me and home section, nav, only organization so far. Index has been given all essential organization to make the content look good, still slightly janky-ish&#10;&#10;4/9 devblog and TODO update" />
+    <MESSAGE value="4/10 devblog and TODO&#10;&#10;4/10: Implemnted majority of layout and design, as well as a lot of styling and coloring. It looks not ugly now!" />
+    <option name="LAST_COMMIT_MESSAGE" value="4/10 devblog and TODO&#10;&#10;4/10: Implemnted majority of layout and design, as well as a lot of styling and coloring. It looks not ugly now!" />
   </component>
   <component name="WindowStateProjectService">
     <state x="729" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586452738455">

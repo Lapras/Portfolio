@@ -171,7 +171,7 @@ Having a right-side text standard content simply uses .left as a class, making t
 }
 #aboutText {
     position: absolute;
-    top: 200px;
+    top: 175px;
     left: 40px;
     color: #e7e8e8;
 }
