@@ -6,17 +6,42 @@
     <title>devBlog</title>
 </head>
 <body>
-<header class="Title">
-    <h1>Development Blog</h1>
-    <p>Welcome to the development blog! Here will be a list of all the major development changes in chronological order.</p>
+<header class="header">
+    <section class = "headerContainer">
+        <h2 class="headerName">Jeremy<br> &nbsp &nbsp &nbsp Murray</h2>
+        <h3 class="headerContact">Contact me at: <br> <a href="mailto: jermurray2@gmail.com" id="emailLink">jermurray2@gmail.com</a></h3>
+    </section>
+    <nav class="navContainer">
+        <button class="navButton" onclick="window.location.href = 'Index.html';">Home</button>
+        <button class="navButton" onclick="window.location.href = 'Index.html';">FTC Robotics</button>
+        <button class="navButton" onclick="window.location.href = 'DevBlog.html';">DevBlog</button>
+    </nav>
 </header>
-<p>&nbsp;</p>
+<section id = "devHeader">
+    <h2>Welcome to the Devlog!</h2>
+    <h3 class="devSubHeader">Here is where I list all changes made to the site. You can find the github <a href="https://github.com/Lapras/Portfolio">Here</a></h3>
+</section>
 <section class="development">
-    <h2>Blog Entries</h2>
+    <h2 class="devSubHeader">Blog Entries:</h2>
     <article class="blog">
-        <h3>This is day 3, and holy smokes did a lot get done</h3>
-        <h4>4/10/2020</h4>
-        <p> HOLY CRAP I got stuff done, organization of main page is finalized and so is the majority of styling
+        <h3 class="blogTitle">Day 4! Give it up for Day 4!</h3>
+        <h4 class="blogDate">4/1/2020</h4>
+        <p class = "blogText"> Wow, that was a lot. Main page is finished, styling and layout is finalized and i've got images from the old Wix portfolio uploaded.
+            This took a while but this was most likely my most productive day. And the Devblog got styled today! It used to be just kind of a wall of text but now it's
+            stylized and organized a bit better. I looked up the CSS transition property and now the buttons grow and change background gradually when you hover over them!
+            The Header also phades in and out now due to a script i added!<br>
+            What I got Done: <br>
+            Layouts finalized and colorization changed, content and images for main page is done, but this may be changed later.<br>
+            added CSS transitions for button and header phade <br>
+            added header phade script <br>
+            TODO: <br>
+            Work on sub-pages and more content<br>
+            Implement dropdown system for links</p>
+    </article>
+    <article class="blog">
+        <h3 class="blogTitle">This is day 3, and holy smokes did a lot get done</h3>
+        <h4 class="blogDate">4/10/2020</h4>
+        <p class = "blogText"> HOLY CRAP I got stuff done, organization of main page is finalized and so is the majority of styling
             everything is pretty and in colors and the page adjust to viewport height and width well.<br>
             What Got Done: <br>
             Standardized layout done, header done, styling done, coloring done, CSS Reset implemented <br>
@@ -25,9 +50,9 @@
             Research ways to make things pretty (drop downs, gradual color changes, header phade, etc.)</p>
     </article>
     <article class="blog">
-        <h3>Day 1? Day 1.5? Day 2? idk</h3>
-        <h4>4/9/2020</h4>
-        <p> A lot of progress, flexbox made layout really easy and I got the index page organized, everything is still pretty fugly and i might
+        <h3  class="blogTitle">Day 1? Day 1.5? Day 2? idk</h3>
+        <h4 class="blogDate">4/9/2020</h4>
+        <p class = "blogText"> A lot of progress, flexbox made layout really easy and I got the index page organized, everything is still pretty fugly and i might
             revisit later today, but otherwise we got some good stuff done here<br>
         What Got Done: <br>
         implemented layout for index and some standardized layouts <br>
@@ -37,9 +62,9 @@
         Refine the organization so that a couple specifically spoopy things don't happen when you make the page too thin</p>
     </article>
     <article class="blog">
-        <h3>Fresh Start</h3>
-        <h4>4/8/2020</h4>
-        <p>Literally everything was deleted, only thing that is the same is the github repository. Working on a new computer and a new design with knowledge
+        <h3  class="blogTitle">Fresh Start</h3>
+        <h4 class="blogDate">4/8/2020</h4>
+        <p class = "blogText">Literally everything was deleted, only thing that is the same is the github repository. Working on a new computer and a new design with knowledge
             about flexbox. New year, new portfolio. Devblog start's here and entries will likely be daily for a while. <br>
             What Got Done: <br>
             Made layouts for home, content, gallery, and devblog page <br>
@@ -48,7 +73,8 @@
             Implement flexbox systems and develop website header</p>
     </article>
 </section>
-<footer>
+<footer class="footer">
+    <p>&copy;Copyright 2020 Jeremy Murray</p>
 </footer>
 </body>
 </html>

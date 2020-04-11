@@ -19,14 +19,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e304270b-e380-469b-936f-03015d58212b" name="Default Changelist" comment="4/10 devblog and TODO&#10;&#10;4/10: Implemnted majority of layout and design, as well as a lot of styling and coloring. It looks not ugly now!">
+    <list default="true" id="e304270b-e380-469b-936f-03015d58212b" name="Default Changelist" comment="Updated #aboutText so that it only overlaps other parts ONLY if the viewport is like 2 inches tall, please don't do that">
+      <change afterPath="$PROJECT_DIR$/siteJS.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aboutMe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devBlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/devBlog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,7 +71,8 @@
       <workItem from="1586395178635" duration="2761000" />
       <workItem from="1586443830208" duration="5733000" />
       <workItem from="1586485512499" duration="972000" />
-      <workItem from="1586530550999" duration="2978000" />
+      <workItem from="1586530550999" duration="3023000" />
+      <workItem from="1586619635548" duration="7759000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit, Devblog for 4/9.">
       <created>1586443901167</created>
@@ -90,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586533394318</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updated #aboutText so that it only overlaps other parts ONLY if the viewport is like 2 inches tall, please don't do that">
+      <created>1586533560884</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586533560884</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,17 +132,22 @@
     <MESSAGE value="4/9: Styles and systems for standard sections, about me and home section, nav, only organization so far. Index has been given all essential organization to make the content look good, still slightly janky-ish" />
     <MESSAGE value="4/9: Styles and systems for standard sections, about me and home section, nav, only organization so far. Index has been given all essential organization to make the content look good, still slightly janky-ish&#10;&#10;4/9 devblog and TODO update" />
     <MESSAGE value="4/10 devblog and TODO&#10;&#10;4/10: Implemnted majority of layout and design, as well as a lot of styling and coloring. It looks not ugly now!" />
-    <option name="LAST_COMMIT_MESSAGE" value="4/10 devblog and TODO&#10;&#10;4/10: Implemnted majority of layout and design, as well as a lot of styling and coloring. It looks not ugly now!" />
+    <MESSAGE value="Updated #aboutText so that it only overlaps other parts ONLY if the viewport is like 2 inches tall, please don't do that" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated #aboutText so that it only overlaps other parts ONLY if the viewport is like 2 inches tall, please don't do that" />
   </component>
   <component name="WindowStateProjectService">
     <state x="729" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586452738455">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="729" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586452738455" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586456540291">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586533565115">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586456540291" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586533565115" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1586627505400">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586627505400" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586453197235">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

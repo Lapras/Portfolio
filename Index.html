@@ -6,58 +6,67 @@
     <title>Jeremy Murray</title>
 </head>
 <body>
-<header>
+<header id="header">
     <section class = "headerContainer">
         <h2 class="headerName">Jeremy<br> &nbsp &nbsp &nbsp Murray</h2>
         <h3 class="headerContact">Contact me at: <br> <a href="mailto: jermurray2@gmail.com" id="emailLink">jermurray2@gmail.com</a></h3>
     </section>
     <nav class="navContainer">
-        <button class="navButton"><a href="aboutMe.html">About Me</a></button>
-        <button class="navButton"><a href="aboutMe.html">FTC Robotics</a></button>
-        <button class="navButton"><a href="aboutMe.html">Devblog</a></button>
+        <button class="navButton" onclick="window.location.href = 'Index.html';">Home</button>
+        <button class="navButton" onclick="window.location.href = 'Index.html';">FTC Robotics</button>
+        <button class="navButton" onclick="window.location.href = 'DevBlog.html';">DevBlog</button>
     </nav>
 </header>
 <section id="aboutContainer">
-    <img src="Imgs/PlaceHolder%20Self%20Image.jpg" id="selfPic">
+    <img src="Imgs/Headshot.jpg" id="selfPic">
     <div id="aboutText">
-        <h4>About Me</h4>
-        <p>I'm a Junior at Robbinsville High School, age 16. I'm a member of FTC 14020 NEMESIS Prime.</p>
+        <h4 id="aboutTitle">About Me</h4>
+        <p><br>I'm a Junior at Robbinsville High School, age 16. I'm a member of FTC 14020 NEMESIS Prime.
+        I'm interested in software engineering and game development. I've pursued personal projects in my free time
+        and have written in HTML, CSS, C#, Java, and Javascript</p>
     </div>
 </section>
 <section class="quoteContainer">
-    <h4 class="quoteText">Quote to be inserted here</h4>
-    <img src="Imgs/Tfod.png" class="quoteImg">
+    <h4 class="quoteText">"I Know new situations can be intimidating. You're looking around ant it's all
+        scary and different. But you know, meeting them head on, chargning right into them like a bull,
+        That's how we grow as people"</h4>
+    <h5 class="quoteCite"><i>-Rick Sanchez</i></h5>
+    <img src="Imgs/rick%20and%20morty.png" class="quoteImg">
 </section>
 <section class="standardContainer">
     <div class="standardTextBox">
         <div class="standardTextBoxSub">
-            <h4>Header Here</h4>
-            <p>Text Here</p>
-            <button class="standardButton">Linky time bois</button>
+            <h4 class="standardHeader">FTC Robotics</h4>
+            <p>See what i've accomplished in my time with FTC 14020 NEMESIS Prime. From programming our robot's driver-controlled
+            and autonomous capabilities to designing subsystems in CAD.</p>
+            <button class="standardButton" onclick="window.location.href = 'Index.html'">FTC Robotics</button>
         </div>
     </div>
     <div class="standardImageBox">
-        <img src="Imgs/TestField.jpg" class="standardImg">
+        <img src="Imgs/longLogo.png"class="standardImg">
     </div>
 </section>
 <section class="standardContainer left">
     <div class="standardTextBox">
         <div class="standardTextBoxSub">
-            <h4>Header Here</h4>
-            <p>Text Here</p>
-            <button class="standardButton">Linky time bois</button>
+            <h4 class="standardHeader">Devlog</h4>
+            <p>See how the site was developed and how it has been changed by viewing the site's devlog. See entries detailing the changes made to the site
+            as well as a link to the github repository.</p>
+            <button class="standardButton" onclick="window.location.href = 'devBlog.html'">Devlog</button>
         </div>
     </div>
     <div class="standardImageBox">
-        <img src="Imgs/TestField.jpg" class="standardImg">
+        <img src="Imgs/HTML.jpg" class="standardImg">
     </div>
 </section>
 <section class="quoteContainer">
-    <h4 class="quoteText">Quote to be inserted here</h4>
-    <img src="Imgs/Tfod.png" class="quoteImg">
+    <h4 class="quoteText">"It's fine. Everyone makes mistakes, you just need to make an effort not to make that same mistake again"</h4>
+    <h5 class="quoteCite">-Ainz Oal Gown</h5>
+    <img src="Imgs/Overlord.png" class="quoteImg">
 </section>
-<footer id="footer">
+<footer class="footer">
     <p>&copy;Copyright 2020 Jeremy Murray</p>
 </footer>
+<script src="siteJS.js"></script>
 </body>
 </html>

@@ -48,11 +48,14 @@ table {
     border-spacing: 0;
 }
 
-/*resetting link styling*/
-a:link {color: #e7e8e8; text-decoration: none; }
-a:active {color: #e7e8e8; text-decoration: none; }
-a:visited {color: #e7e8e8; text-decoration: none; }
-a:hover {color: #e7e8e8; text-decoration: none; }
+/* webkit transitions so that we have an ease in/out for color and size changed*/
+button, header {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
 
 /*Link coloring for the email link*/
 #emailLink:link {
@@ -71,6 +74,10 @@ a:hover {color: #e7e8e8; text-decoration: none; }
 header {
     background: linear-gradient(#af1f0f, #de0f0f);
 }
+/* footer coloring*/
+footer {
+    background: #c7170f;
+}
 
 /*navigation Container and nav buttons*/
 .navContainer {
@@ -80,27 +87,42 @@ header {
 .navButton {
     flex-shrink: 1;
     flex-grow: 1;
-    margin: 5px 1vw;
+    margin: 10px 1vw;
     border-color: black;
-    border-radius: 20px;
+    border-radius: 60px 0px;
     background-color: #40403f;
     color: #e7e8e8;
     font-size: 16px;
 }
+/*effects when a user hover's over the nav button*/
+.navButton:hover {
+    flex-grow: 1.2;
+    cursor: pointer;
+    background-color: #c7170f;
+}
 
 /*quote container, image, and text styling*/
 .quoteContainer {
-    height: 25vh;
+    padding: 10px 20vw;
+    min-height: 25vh;
     text-align: center;
-    background-color: #40403f;
+    background-color: #af1f0f;
 }
 .quoteImg {
     text-align: center;
     height: 100px;
 }
 .quoteText {
-    font-size: 48px;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 36px;
     text-align: center;
+}
+.quoteCite {
+    font-size: 24px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
 }
 
 /* Standardized 1:3 layout sections and their styling, the "sub" level text box creates a simple way to create a smaller wrapper for text content
@@ -113,38 +135,56 @@ Having a right-side text standard content simply uses .left as a class, making t
     flex-flow: row-reverse;
 }
 .standardTextBox {
-    flex-grow: 1;
-    flex-shrink: 1;
+    flex-basis: 1%;
+    flex-grow: 2;
+    flex-shrink: 2;
     font-size: 20px;
+    background-color: #111111;
     color: #111111;
     text-align: center;
     content-align: center;
 }
 .standardTextBoxSub {
+    padding: 20px;
     text-align: center;
-    border: #111111 solid;
+    border: #c7170f solid;
     border-radius: 40px;
     width: 50%;
-    margin: 30% auto;
+    margin: 50px auto;
+    color: #e7e8e8;
 }
 .standardImageBox {
     flex-basis: 100px;
-    flex-grow: 3;
-    flex-shrink: 3;
+    flex-grow: 4;
+    flex-shrink: 4;
 }
 .standardImg {
     width: 100%;
     height: 100%;
 }
 .standardButton {
-    flex-shrink: 1;
+    min-width: 100px;
+    padding: 10px;
     flex-grow: 1;
-    margin: 5px 1vw;
+    margin: 26px 1vw;
     border-color: black;
     border-radius: 20px;
-    background-color: #40403f;
+    background-color: #c7170f;
     color: #e7e8e8;
     font-size: 16px;
+}
+/*behavior when a user hover's over a standard button*/
+.standardButton:hover {
+    cursor: pointer;
+    min-width: 160px;
+    background-color: #40403f;
+}
+.standardHeader {
+    color: #c7170f;
+    text-decoration: underline;
+    font-size: 32px;
+    margin-bottom: 26px;
+    margin-top: 16px;
 }
 
 /*header Container and header content*/
@@ -168,12 +208,23 @@ Having a right-side text standard content simply uses .left as a class, making t
 /*about me image+caption portion*/
 #aboutContainer {
     height: 40vh;
+    background: #c7170f;
 }
 #aboutText {
+    width: 600px;
+    padding: 20px;
     position: absolute;
     top: 175px;
     left: 40px;
     color: #e7e8e8;
+    font-size: 20px;
+    border: solid #40403f;
+    border-radius: 20px;
+    background: #c7170f;
+}
+#aboutTitle {
+    font-size: 28px;
+    text-decoration: underline;
 }
 #selfPic {
     width:100%;
@@ -181,3 +232,47 @@ Having a right-side text standard content simply uses .left as a class, making t
     position:relative;
 }
 
+/*styling for the Devlog page*/
+#devHeader {
+    color: #de0f0f;
+    background-color: #111111;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px 10%;
+}
+.devSubHeader {
+    font-size: 24px;
+}
+.development {
+    background: #c7170f;
+    text-align: center;
+}
+.blog {
+    text-align: center;
+    margin: 20px 60px 0px;
+    border: solid #111111;
+    border-radius: 40px;
+    padding: 20px;
+}
+.blogTitle {
+    font-size: 28px;
+    font-wieght: bold;
+}
+.blogDate {
+    font-size: 20px;
+    font-wieght: bold;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.blogText {
+    font-size: 16px;
+    margin: auto;
+    width: 75%;
+}
+#header {
+    position: fixed; /* Fixed position - sit on top of the page */
+    top: 0;
+    width: 100%; /* Full width */
+    z-index: 1;
+}
