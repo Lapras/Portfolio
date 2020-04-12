@@ -19,12 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e304270b-e380-469b-936f-03015d58212b" name="Default Changelist" comment="Updated #aboutText so that it only overlaps other parts ONLY if the viewport is like 2 inches tall, please don't do that">
-      <change afterPath="$PROJECT_DIR$/siteJS.js" afterDir="false" />
+    <list default="true" id="e304270b-e380-469b-936f-03015d58212b" name="Default Changelist" comment="4/11 Dev changes, and 4/11 Devlog Entry&#10;&#10;Header phade script&#10;Full layout for index and content&#10;Coloring update&#10;button color and size change system&#10;CSS transitions">
+      <change afterPath="$PROJECT_DIR$/CADMachine.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FTCRobotics.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/competitions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/software.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboutMe.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/devBlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/devBlog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/siteJS.js" beforeDir="false" afterPath="$PROJECT_DIR$/siteJS.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +39,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -48,6 +52,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -72,7 +77,10 @@
       <workItem from="1586443830208" duration="5733000" />
       <workItem from="1586485512499" duration="972000" />
       <workItem from="1586530550999" duration="3023000" />
-      <workItem from="1586619635548" duration="7759000" />
+      <workItem from="1586619635548" duration="7839000" />
+      <workItem from="1586634382178" duration="2357000" />
+      <workItem from="1586653378219" duration="1774000" />
+      <workItem from="1586710029744" duration="9025000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit, Devblog for 4/9.">
       <created>1586443901167</created>
@@ -109,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586533560884</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="4/11 Dev changes, and 4/11 Devlog Entry&#10;&#10;Header phade script&#10;Full layout for index and content&#10;Coloring update&#10;button color and size change system&#10;CSS transitions">
+      <created>1586628046225</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586628046225</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,17 +148,18 @@
     <MESSAGE value="4/9: Styles and systems for standard sections, about me and home section, nav, only organization so far. Index has been given all essential organization to make the content look good, still slightly janky-ish&#10;&#10;4/9 devblog and TODO update" />
     <MESSAGE value="4/10 devblog and TODO&#10;&#10;4/10: Implemnted majority of layout and design, as well as a lot of styling and coloring. It looks not ugly now!" />
     <MESSAGE value="Updated #aboutText so that it only overlaps other parts ONLY if the viewport is like 2 inches tall, please don't do that" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated #aboutText so that it only overlaps other parts ONLY if the viewport is like 2 inches tall, please don't do that" />
+    <MESSAGE value="4/11 Dev changes, and 4/11 Devlog Entry&#10;&#10;Header phade script&#10;Full layout for index and content&#10;Coloring update&#10;button color and size change system&#10;CSS transitions" />
+    <option name="LAST_COMMIT_MESSAGE" value="4/11 Dev changes, and 4/11 Devlog Entry&#10;&#10;Header phade script&#10;Full layout for index and content&#10;Coloring update&#10;button color and size change system&#10;CSS transitions" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="729" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586452738455">
+    <state x="729" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586716675433">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="729" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586452738455" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586533565115">
+    <state x="729" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586716675433" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586628051490">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586533565115" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586628051490" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1586627505400">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

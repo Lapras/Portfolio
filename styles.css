@@ -82,12 +82,11 @@ footer {
 /*navigation Container and nav buttons*/
 .navContainer {
     display:flex;
-    margin: 0px 2vw;
+    margin: 10px 2vw;
 }
 .navButton {
-    flex-shrink: 1;
     flex-grow: 1;
-    margin: 10px 1vw;
+    flex-shrink: 1;
     border-color: black;
     border-radius: 60px 0px;
     background-color: #40403f;
@@ -99,6 +98,11 @@ footer {
     flex-grow: 1.2;
     cursor: pointer;
     background-color: #c7170f;
+}
+
+.dropWrapper {
+    position: absolute;
+    z-index: 2;
 }
 
 /*quote container, image, and text styling*/
@@ -217,7 +221,7 @@ Having a right-side text standard content simply uses .left as a class, making t
     top: 175px;
     left: 40px;
     color: #e7e8e8;
-    font-size: 20px;
+    font-size: 16px;
     border: solid #40403f;
     border-radius: 20px;
     background: #c7170f;
@@ -239,7 +243,7 @@ Having a right-side text standard content simply uses .left as a class, making t
     font-size: 36px;
     font-weight: bold;
     text-align: center;
-    padding: 40px 10%;
+    padding: 140px 10% 40px;
 }
 .devSubHeader {
     font-size: 24px;
