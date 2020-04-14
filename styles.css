@@ -56,6 +56,15 @@ button, header {
     -ms-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
 }
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
 
 /*Link coloring for the email link*/
 #emailLink:link {
@@ -134,6 +143,7 @@ Having a right-side text standard content simply uses .left as a class, making t
 .standardContainer {
     background-color: #c7170f;
     display: flex;
+    height: 50vh;
 }
 .left {
     flex-flow: row-reverse;
@@ -161,6 +171,8 @@ Having a right-side text standard content simply uses .left as a class, making t
     flex-basis: 100px;
     flex-grow: 4;
     flex-shrink: 4;
+    width: 100%;
+    height: 100%;
 }
 .standardImg {
     width: 100%;
@@ -177,6 +189,11 @@ Having a right-side text standard content simply uses .left as a class, making t
     color: #e7e8e8;
     font-size: 16px;
 }
+/*bigBoi is for larger standard boxes that don't quite fit within the desired size*/
+.bigBoi {
+    height: 60vh;
+}
+
 /*behavior when a user hover's over a standard button*/
 .standardButton:hover {
     cursor: pointer;
@@ -209,6 +226,54 @@ Having a right-side text standard content simply uses .left as a class, making t
     font-wieght: bold;
 }
 
+/*styling for the Projects organization method*/
+.projectDisplay {
+    width: 100%;
+    background: #40403f;
+    text-align: center;
+    padding: 10px;
+}
+.projectHeader {
+    font-size: 32px;
+    font-weight: bold;
+}
+.projectSubHead {
+    margin:auto;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 60vw;
+}
+.projectFlex {
+    display: flex;
+    padding: 10px 5vw;
+}
+.projectSection {
+    margin: 0px 1.5vw;
+    flex-basis: 1vw;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.projectText {
+    font-size: 20px;
+}
+.projectTitle {
+    color: #111111;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.projectSection {
+}
+.projectImg {
+    margin: 10px;
+    height: 15vh;
+}
+#tools {
+    background-color: #af1f0f;
+}
 /*about me image+caption portion*/
 #aboutContainer {
     height: 40vh;
