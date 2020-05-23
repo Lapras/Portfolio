@@ -19,15 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e304270b-e380-469b-936f-03015d58212b" name="Default Changelist" comment="4/13 and 4/14 Devlog and changes&#10;&#10;Sub-pages developed&#10;placeholder images&#10;quote changes&#10;Projects organization method">
+    <list default="true" id="e304270b-e380-469b-936f-03015d58212b" name="Default Changelist" comment="5/19 and 5/21 Devlogs&#10;&#10;Picture Updates and CAD content">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CADMachine.html" beforeDir="false" afterPath="$PROJECT_DIR$/CADMachine.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FTCRobotics.html" beforeDir="false" afterPath="$PROJECT_DIR$/FTCRobotics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Imgs/AStudio.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imgs/AStudio.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Imgs/github.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imgs/github.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/competitions.html" beforeDir="false" afterPath="$PROJECT_DIR$/competitions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devBlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/devBlog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software.html" beforeDir="false" afterPath="$PROJECT_DIR$/software.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +81,8 @@
       <workItem from="1589934445000" duration="40000" />
       <workItem from="1589934536574" duration="1673000" />
       <workItem from="1590084087382" duration="599000" />
-      <workItem from="1590093054597" duration="3946000" />
+      <workItem from="1590093054597" duration="3978000" />
+      <workItem from="1590253483612" duration="482000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit, Devblog for 4/9.">
       <created>1586443901167</created>
@@ -144,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586893112720</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="5/19 and 5/21 Devlogs&#10;&#10;Picture Updates and CAD content">
+      <created>1590097701133</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1590097701133</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +174,8 @@
     <MESSAGE value="4/11 Dev changes, and 4/11 Devlog Entry&#10;&#10;Header phade script&#10;Full layout for index and content&#10;Coloring update&#10;button color and size change system&#10;CSS transitions" />
     <MESSAGE value="4/12 dev log and changes&#10;&#10;Added FTC Robotics page and baby subpages&#10;Added written content for FTC Robotics page" />
     <MESSAGE value="4/13 and 4/14 Devlog and changes&#10;&#10;Sub-pages developed&#10;placeholder images&#10;quote changes&#10;Projects organization method" />
-    <option name="LAST_COMMIT_MESSAGE" value="4/13 and 4/14 Devlog and changes&#10;&#10;Sub-pages developed&#10;placeholder images&#10;quote changes&#10;Projects organization method" />
+    <MESSAGE value="5/19 and 5/21 Devlogs&#10;&#10;Picture Updates and CAD content" />
+    <option name="LAST_COMMIT_MESSAGE" value="5/19 and 5/21 Devlogs&#10;&#10;Picture Updates and CAD content" />
   </component>
   <component name="WindowStateProjectService">
     <state x="729" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586716675433">

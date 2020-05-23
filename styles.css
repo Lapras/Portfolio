@@ -157,6 +157,7 @@ Having a right-side text standard content simply uses .left as a class, making t
     color: #111111;
     text-align: center;
     content-align: center;
+    max-height: 60vh;
 }
 .standardTextBoxSub {
     padding: 20px;
@@ -166,7 +167,12 @@ Having a right-side text standard content simply uses .left as a class, making t
     width: 50%;
     margin: 50px auto;
     color: #e7e8e8;
+    overflow: scroll;
+    max-height: 35vh;
 }
+.standardTextBoxSub::-webkit-scrollbar {
+    display: none;
+} /*interacts with webkit browsers to not show the scrollbars*/
 .standardImageBox {
     flex-basis: 100px;
     flex-grow: 4;
