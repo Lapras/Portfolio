@@ -271,8 +271,6 @@ Having a right-side text standard content simply uses .left as a class, making t
     text-decoration: underline;
     margin-bottom: 10px;
 }
-.projectSection {
-}
 .projectImg {
     margin: 10px;
     height: 15vh;
@@ -350,4 +348,35 @@ Having a right-side text standard content simply uses .left as a class, making t
     top: 0;
     width: 100%; /* Full width */
     z-index: 1;
+}
+.mediaGallery {
+    text-align: center;
+    width: 100%;
+    background: #40403f;
+    text-align: center;
+    padding: 10px;
+}
+.scrollGallery {
+    text-align: center;
+    display: flex;
+}
+.w3-button {
+    flex-grow: 1;
+    margin: 100px 40px;
+    background: #af1f0f;
+}
+.slides {
+    flex-grow: 6;
+}
+.caption {
+    font-size: 18px;
+    margin: 20px 10px;
+}
+.mediaheader {
+    font-size: 24px;
+    margin: 10px 10px;
+}
+.mediasubHeader {
+    font-size: 18px;
+    margin: 10px 10px;
 }
