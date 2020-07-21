@@ -19,141 +19,48 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e304270b-e380-469b-936f-03015d58212b" name="Default Changelist" comment="5/23 minor changes&#10;&#10;Host v1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="41c75c7b-a9ab-4993-8056-f907e4f8c47a" name="Default Changelist" comment="Fuck tgis">
       <change beforePath="$PROJECT_DIR$/devBlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/devBlog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1aHasD96kwsycSK0sgZgihIrtQk" />
+  <component name="ProjectId" id="1f0RNdZGB0ouzzI1Z8gUwgjiRo5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e304270b-e380-469b-936f-03015d58212b" name="Default Changelist" comment="" />
-      <created>1586395177421</created>
+      <changelist id="41c75c7b-a9ab-4993-8056-f907e4f8c47a" name="Default Changelist" comment="" />
+      <created>1595352985035</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1586395177421</updated>
-      <workItem from="1586395178635" duration="2761000" />
-      <workItem from="1586443830208" duration="5733000" />
-      <workItem from="1586485512499" duration="972000" />
-      <workItem from="1586530550999" duration="3023000" />
-      <workItem from="1586619635548" duration="7839000" />
-      <workItem from="1586634382178" duration="2357000" />
-      <workItem from="1586653378219" duration="1774000" />
-      <workItem from="1586710029744" duration="10298000" />
-      <workItem from="1586796165386" duration="6694000" />
-      <workItem from="1586879269002" duration="12450000" />
-      <workItem from="1589934445000" duration="40000" />
-      <workItem from="1589934536574" duration="1673000" />
-      <workItem from="1590084087382" duration="599000" />
-      <workItem from="1590093054597" duration="3978000" />
-      <workItem from="1590253483612" duration="551000" />
+      <updated>1595352985035</updated>
+      <workItem from="1595352987421" duration="766000" />
     </task>
-    <task id="LOCAL-00001" summary="Initial Commit, Devblog for 4/9.">
-      <created>1586443901167</created>
+    <task id="LOCAL-00001" summary="Fuck tgis">
+      <created>1595353320058</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1586443901167</updated>
+      <updated>1595353320058</updated>
     </task>
-    <task id="LOCAL-00002" summary="4/9: Styles and systems for standard sections, about me and home section, nav, only organization so far. Index has been given all essential organization to make the content look good, still slightly janky-ish">
-      <created>1586455894686</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1586455894686</updated>
-    </task>
-    <task id="LOCAL-00003" summary="4/9: Styles and systems for standard sections, about me and home section, nav, only organization so far. Index has been given all essential organization to make the content look good, still slightly janky-ish&#10;&#10;4/9 devblog and TODO update">
-      <created>1586456534801</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1586456534801</updated>
-    </task>
-    <task id="LOCAL-00004" summary="4/10 devblog and TODO&#10;&#10;4/10: Implemnted majority of layout and design, as well as a lot of styling and coloring. It looks not ugly now!">
-      <created>1586533394318</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1586533394318</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Updated #aboutText so that it only overlaps other parts ONLY if the viewport is like 2 inches tall, please don't do that">
-      <created>1586533560884</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1586533560884</updated>
-    </task>
-    <task id="LOCAL-00006" summary="4/11 Dev changes, and 4/11 Devlog Entry&#10;&#10;Header phade script&#10;Full layout for index and content&#10;Coloring update&#10;button color and size change system&#10;CSS transitions">
-      <created>1586628046225</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1586628046225</updated>
-    </task>
-    <task id="LOCAL-00007" summary="4/12 dev log and changes&#10;&#10;Added FTC Robotics page and baby subpages&#10;Added written content for FTC Robotics page">
-      <created>1586725225421</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1586725225421</updated>
-    </task>
-    <task id="LOCAL-00008" summary="4/13 and 4/14 Devlog and changes&#10;&#10;Sub-pages developed&#10;placeholder images&#10;quote changes&#10;Projects organization method">
-      <created>1586893112720</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1586893112720</updated>
-    </task>
-    <task id="LOCAL-00009" summary="5/19 and 5/21 Devlogs&#10;&#10;Picture Updates and CAD content">
-      <created>1590097701133</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1590097701133</updated>
-    </task>
-    <task id="LOCAL-00010" summary="5/23 minor changes&#10;&#10;Host v1">
-      <created>1590253992962</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1590253992962</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,41 +76,9 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial Commit, Devblog for 4/9." />
-    <MESSAGE value="4/9: Styles and systems for standard sections, about me and home section, nav, only organization so far. Index has been given all essential organization to make the content look good, still slightly janky-ish" />
-    <MESSAGE value="4/9: Styles and systems for standard sections, about me and home section, nav, only organization so far. Index has been given all essential organization to make the content look good, still slightly janky-ish&#10;&#10;4/9 devblog and TODO update" />
-    <MESSAGE value="4/10 devblog and TODO&#10;&#10;4/10: Implemnted majority of layout and design, as well as a lot of styling and coloring. It looks not ugly now!" />
-    <MESSAGE value="Updated #aboutText so that it only overlaps other parts ONLY if the viewport is like 2 inches tall, please don't do that" />
-    <MESSAGE value="4/11 Dev changes, and 4/11 Devlog Entry&#10;&#10;Header phade script&#10;Full layout for index and content&#10;Coloring update&#10;button color and size change system&#10;CSS transitions" />
-    <MESSAGE value="4/12 dev log and changes&#10;&#10;Added FTC Robotics page and baby subpages&#10;Added written content for FTC Robotics page" />
-    <MESSAGE value="4/13 and 4/14 Devlog and changes&#10;&#10;Sub-pages developed&#10;placeholder images&#10;quote changes&#10;Projects organization method" />
-    <MESSAGE value="5/19 and 5/21 Devlogs&#10;&#10;Picture Updates and CAD content" />
-    <MESSAGE value="5/23 minor changes&#10;&#10;Host v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="5/23 minor changes&#10;&#10;Host v1" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="729" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586716675433">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="729" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586716675433" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1589934470808">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589934470808" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586893185705">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586893185705" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1586627505400">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586627505400" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586453197235">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586453197235" />
+    <MESSAGE value="Fuck tgis" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fuck tgis" />
   </component>
 </project>
