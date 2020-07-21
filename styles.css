@@ -1,4 +1,9 @@
+/*full CSS reset gotten from meyerweb*/
 
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -19,214 +24,330 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
-
-HTML5 display-role reset for older browsers
+/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
-
 body {
     line-height: 1;
 }
-
 ol, ul {
     list-style: none;
 }
-
 blockquote, q {
     quotes: none;
 }
-
 blockquote:before, blockquote:after,
 q:before, q:after {
     content: '';
     content: none;
 }
-
 table {
     border-collapse: collapse;
     border-spacing: 0;
 }
 
-.group:before,
-.group:after {
-    content: "";
-    display: table;
+/* webkit transitions so that we have an ease in/out for color and size changed*/
+button, header {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
 }
-
-.group:after {
-    clear: both;
-}
-
-.group {
-    clear: both;
-    *zoom: 1;
-}
-
-html {
-    height: 100%;
-    width: 100%;
-    background: black;
-    font-family: "Nanum Gothic", sans-serif;
-    box-sizing: border-box;
-    display: inline-block;
-}
-
-button {
-    background: #020521;
-    border: 2px solid white;
-    border-radius: 5px;
-    margin: 0;
-}
-
-.center {
-    text-align: center;
-}
-
-.left {
-    float: left;
-}
-
-.right {
-    float: right;
-}
-
-.clear {
-    clear: both;
-}
-
-.inline {
-    display: inline;
-}
-
-.block {
+ul {
     display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
 }
 
-.inBlock {
-    display: inline-block;
+/*Link coloring for the email link*/
+#emailLink:link {
+    color:  #0000EE;
+    text-decoration: underline;
+}
+#emailLink:visited {
+    color:  #551A8B;;
+    text-decoration: underline;
+}
+#emailLink:active {
+    color:  #e7e8e8;
+    text-decoration: underline;
+}
+/* header Gradient*/
+header {
+    background: linear-gradient(#af1f0f, #de0f0f);
+}
+/* footer coloring*/
+footer {
+    background: #c7170f;
 }
 
-.Head {
-    display: block;
-    box-sizing: border-box;
-    margin: 0 auto;
-    height: 98px;
-    min-width: 960px;
-    padding: 36px 2.5%;
-    background: linear-gradient(to right, #f0424b, #bd0f18);
+/*navigation Container and nav buttons*/
+.navContainer {
+    display:flex;
+    margin: 10px 2vw;
+}
+.navButton {
+    flex-grow: 1;
+    flex-shrink: 1;
+    border-color: black;
+    border-radius: 60px 0px;
+    background-color: #40403f;
+    color: #e7e8e8;
+    font-size: 16px;
+}
+/*effects when a user hover's over the nav button*/
+.navButton:hover {
+    flex-grow: 1.2;
+    cursor: pointer;
+    background-color: #c7170f;
 }
 
-.headerDesc {
-    display: inline-block;
-    box-sizing: border-box;
-    margin: 0;
-    position: relative;
-    bottom: 300px;
-    right: 30%;
-    height: 100px;
-    max-width: 20%;
-    color: white;
-}
-
-#bgIMGHeadShot {
-    z-index: -1;
-    background-size: cover;
-    background-position: left;
-    background-image: url("Imgs/HeadShot.jpg");
-    background-repeat: no-repeat;
-    opacity: 1;
-}
-
-.trapezoid {
-    opacity: 100;
-    margin: 0;
-    border-top: 40px solid #555;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    height: 48px;
-    width: 80%;
-    z-index: -1;
-}
-
-.nav {
-    position: relative;
-    bottom: 32px;
-}
-
-.Navbtn {
-    width: 16.6667%;
-}
-
-.Navbtn, .dropbtn, .dropcontent button {
-    margin: 0;
-    border: none;
-    height: 20px;
-    padding: 5px;
-    vertical-align: top;
-}
-
-.dropbtn, .dropcontent, .dropcontent button {
-    width: 100%;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-    width: 16.6667%;
-}
-
-.dropcontent {
-    width: 100%;
-    margin: 0;
-    border: none;
-    display: none;
+.dropWrapper {
     position: absolute;
+    z-index: 2;
 }
 
-.dropcontent button {
-    margin: 0;
-    display: block;
+/*quote container, image, and text styling*/
+.quoteContainer {
+    padding: 10px 20vw;
+    min-height: 25vh;
+    text-align: center;
+    background-color: #af1f0f;
 }
-
-.dropdown:hover .dropcontent {
-    display: block;
+.quoteImg {
+    text-align: center;
+    height: 100px;
 }
-
-.quote {
-    position: relative;
-    bottom: 275px;
-    background-color: #F41C0C;
-    height: 300px;
-    width: 100%;
-    align-content: center;
-    align-items: center;
+.quoteText {
+    font-weight: bold;
+    padding: 20px;
+    font-size: 36px;
     text-align: center;
 }
-
-.quotetext {
-    color: black;
-    font-size: 60px;
-}
-#Name {
-    float: left;
+.quoteCite {
+    font-size: 24px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
 }
 
-#contact {
-    float: right;
-    text-align: right;
+/* Standardized 1:3 layout sections and their styling, the "sub" level text box creates a simple way to create a smaller wrapper for text content
+Having a right-side text standard content simply uses .left as a class, making the flex flow row-reverse*/
+.standardContainer {
+    background-color: #c7170f;
+    display: flex;
+    height: 50vh;
 }
-
-#Roffset {
-    position: relative;
-    left: 48px;
+.left {
+    flex-flow: row-reverse;
 }
-
-.headshotIMG {
-    display: inline;
+.standardTextBox {
+    flex-basis: 1%;
+    flex-grow: 2;
+    flex-shrink: 2;
+    font-size: 20px;
+    background-color: #111111;
+    color: #111111;
+    text-align: center;
+    content-align: center;
+    max-height: 60vh;
+}
+.standardTextBoxSub {
+    padding: 20px;
+    text-align: center;
+    border: #c7170f solid;
+    border-radius: 40px;
+    width: 50%;
+    margin: 50px auto;
+    color: #e7e8e8;
+    overflow: scroll;
+    max-height: 35vh;
+}
+.standardTextBoxSub::-webkit-scrollbar {
+    display: none;
+} /*interacts with webkit browsers to not show the scrollbars*/
+.standardImageBox {
+    flex-basis: 100px;
+    flex-grow: 4;
+    flex-shrink: 4;
     width: 100%;
-    position: relative;
-    bottom: 90px;
-    z-index: -1;
+    height: 100%;
+}
+.standardImg {
+    width: 100%;
+    height: 100%;
+}
+.standardButton {
+    min-width: 100px;
+    padding: 10px;
+    flex-grow: 1;
+    margin: 26px 1vw;
+    border-color: black;
+    border-radius: 20px;
+    background-color: #c7170f;
+    color: #e7e8e8;
+    font-size: 16px;
+}
+/*bigBoi is for larger standard boxes that don't quite fit within the desired size*/
+.bigBoi {
+    height: 60vh;
+}
+
+/*behavior when a user hover's over a standard button*/
+.standardButton:hover {
+    cursor: pointer;
+    min-width: 160px;
+    background-color: #40403f;
+}
+.standardHeader {
+    color: #c7170f;
+    text-decoration: underline;
+    font-size: 32px;
+    margin-bottom: 26px;
+    margin-top: 16px;
+}
+
+/*header Container and header content*/
+.headerContainer {
+    display:flex;
+    color: #111111;
+}
+.headerName {
+    flex-shrink: 1;
+    flex-grow: 1;
+    font-size: 42px;
+    font-weight: bold;
+}
+.headerContact {
+    flex-shrink: 1;
+    flex-grown: 1;
+    font-size: 36px;
+    font-wieght: bold;
+}
+
+/*styling for the Projects organization method*/
+.projectDisplay {
+    width: 100%;
+    background: #40403f;
+    text-align: center;
+    padding: 10px;
+}
+.projectHeader {
+    font-size: 32px;
+    font-weight: bold;
+}
+.projectSubHead {
+    margin:auto;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 60vw;
+}
+.projectFlex {
+    display: flex;
+    padding: 10px 5vw;
+}
+.projectSection {
+    margin: 0px 1.5vw;
+    flex-basis: 1vw;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.projectText {
+    font-size: 20px;
+}
+.projectTitle {
+    color: #111111;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.projectSection {
+}
+.projectImg {
+    margin: 10px;
+    height: 15vh;
+}
+#tools {
+    background-color: #af1f0f;
+}
+/*about me image+caption portion*/
+#aboutContainer {
+    height: 40vh;
+    background: #c7170f;
+}
+#aboutText {
+    width: 600px;
+    padding: 20px;
+    position: absolute;
+    top: 175px;
+    left: 40px;
+    color: #e7e8e8;
+    font-size: 16px;
+    border: solid #40403f;
+    border-radius: 20px;
+    background: #c7170f;
+}
+#aboutTitle {
+    font-size: 28px;
+    text-decoration: underline;
+}
+#selfPic {
+    width:100%;
+    height: 100%;
+    position:relative;
+}
+
+/*styling for the Devlog page*/
+#devHeader {
+    color: #de0f0f;
+    background-color: #111111;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding: 140px 10% 40px;
+}
+.devSubHeader {
+    font-size: 24px;
+}
+.development {
+    background: #c7170f;
+    text-align: center;
+}
+.blog {
+    text-align: center;
+    margin: 20px 60px 0px;
+    border: solid #111111;
+    border-radius: 40px;
+    padding: 20px;
+}
+.blogTitle {
+    font-size: 28px;
+    font-wieght: bold;
+}
+.blogDate {
+    font-size: 20px;
+    font-wieght: bold;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.blogText {
+    font-size: 16px;
+    margin: auto;
+    width: 75%;
+}
+#header {
+    position: fixed; /* Fixed position - sit on top of the page */
+    top: 0;
+    width: 100%; /* Full width */
+    z-index: 1;
 }

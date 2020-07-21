@@ -1,46 +1,145 @@
 <!doctype html>
 <html>
 <head>
-    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <meta charset="utf-8">
     <title>devBlog</title>
 </head>
 <body>
-<nav class="nav">
-    <p class="navbtnR"><a href="Index.html">Home</a></p>
-    <p class="navbtnL"><a href="aboutMe.html">About Me</a></p>
-</nav>
-
-<header class="title">
-    <div class="container">
-        <h1 class="title">Development Blog</h1>
-        <p classs="subtitle">Welcome to the development blog! Here will be a list of all the major development changes
-            in chronological order.</p>
-    </div>
+<header id="header">
+    <section class = "headerContainer">
+        <h2 class="headerName">Jeremy<br> &nbsp &nbsp &nbsp Murray</h2>
+        <h3 class="headerContact">Contact me at: <br> <a href="mailto: jermurray2@gmail.com" id="emailLink">jermurray2@gmail.com</a></h3>
+    </section>
+    <nav class="navContainer">
+        <button class="navButton" onclick="window.location.href = 'Index.html';">Home</button>
+        <button class="navButton" onclick="window.location.href = 'Index.html';">FTC Robotics</button>
+        <button class="navButton" onclick="window.location.href = 'DevBlog.html';">DevBlog</button>
+    </nav>
 </header>
-<section class="developmentTitle">
-    <div class="title container topSpace">
-        <h2>Blog Entries</h2>
-    </div>
+<section id = "devHeader">
+    <h2>Welcome to the Devlog!</h2>
+    <h3 class="devSubHeader">Here is where I list all changes made to the site. You can find the github <a href="https://github.com/Lapras/Portfolio">Here</a></h3>
 </section>
-<article class="title container topSpace">
-    <h3>Looking OK and the about me page</h3>
-    <h4>2/14/19-2/19/19</h4>
-    <p>Thanks to some handy resources from <a href="https://www.theodinproject.com">The Odin Project</a>, I've vastly
-        increased my basic knowledge.
-        I've used floats to create a simple two column layout for my home page, as well as used CSS to create a gradient
-        background, some buttons, and some
-        neat borders. It still doesn't look like much but it looks a lot better than it used to. I've also added the
-        about me page, which is going to
-        include some simple info about me (obviously).</p>
-</article>
-<article class="title container topSpace">
-    <h3>Initial Development</h3>
-    <h4>2/14/19</h4>
-    <p>Page was first created along with the establishment of the domain. Code has been semi-organized and a basic
-        background color was picked.</p>
-</article>
-<footer>
+<section class="development">
+    <h2 class="devSubHeader">Blog Entries:</h2>
+    <article class="blog">
+        <h3 class="blogTitle">AND NOW IT IS TIME TO HOST!!!!!!!!!</h3>
+        <h4 class="blogDate">5/23/2020</h4>
+        <p class = "blogText"> So today, (which technically hasn't happened yet at time of writing), I've got the final stuff done and I'm ready to host the site. <br>
+            I'm gonna use Freenom and Netlify for hosting and then the site should be up for everyone to see... yay? I implemented some webkit stuff for hidden scrollbars<br>
+            when the standard divs get too high, so now it will look a bit better and still maintain functionality once you make the window less wide.
+            TODO: <br>
+            Do Sea Cadets Page <br>
+            Do Personal Projects Page
+        </p>
+    </article>
+    <article class="blog">
+        <h3 class="blogTitle">Man is Photoshop Complicated</h3>
+        <h4 class="blogDate">5/21/2020</h4>
+        <p class = "blogText"> Well yesterday I couldn't do much but today I used Photoshop to clean up and add new silhouetted images for <br>
+            the software page, which gave me... more trouble than I wanted. I also <br>have new content in for the CAD pages and replaced all those images I marked
+            TODO: <br>
+            Do Sea Cadets Page <br>
+            Do Personal Projects Page
+        </p>
+    </article>
+    <article class="blog">
+        <h3 class="blogTitle"> DevRush2: Electric Boogaloo</h3>
+        <h4 class="blogDate">5/19/2020</h4>
+        <p class = "blogText"> OK yeah this got abandoned for a bit, but I'm back! After a bit of research I think for now I'm good with keeping the site as-is in terms of layout. <br>
+            I want to focus on content instead of fancy scrolling images or something (especially considering I'm lacking good images). So far I've flagged placeholder images for replacement.. <br>
+            And I'm waiting to receive the replacements from school sources. I've also gotta get photoshop on the computer again to edit the Silhouetted logos.
+            TODO: <br>
+            Retreive new images <br>
+            Download photoshop <br>
+            Edit and Replace placeholder images <br>
+            UPDATE ROBOTICS CAD: Cinnaminson Lessona and Robots to the Rescue
+
+        </p>
+    </article>
+    <article class="blog">
+        <h3 class="blogTitle"> Day 6 and 7 combined</h3>
+        <h4 class="blogDate">4/14/2020</h4>
+        <p class = "blogText"> Unfortunately I've been sick (not with coronavirus) over the last couple of days, so working on this was sub-optimal. I couldn't get the 4/14
+            deadline extended for FTC so it's still missing some key features that I would like to have had, but the main content for the FTC page is done. Most of the images
+            are moved over from wix and even the quotes as well, which I don't mind too much because I liked them. Other images are placeholders until I can get the silhouetting
+            work done at a later date. Online school is also starting up again, so devlog updates will happen less often, but more stuff will likely be done. I'm gonna look into
+            a way to have the user "scroll" sideways through projects i've done rather than just endlessly scroll down but i've got on idea how it's gonna work right now.<br>
+            What I got Done: <br>
+            FTC Robotics sections (main page and sub-pages) have been developed, but aren't done yet.<br>
+            Projects-style organization method has been developed, giving site sub-pages some more variety
+            TODO: <br>
+            Refine content on the sub-pages, replace placeholder images<br>
+            develop gallery code
+            add new quotes
+            begin development on page for sea cadets, and a page for personal projects.
+        </p>
+    </article>
+    <article class="blog">
+        <h3 class="blogTitle"> Day 5</h3>
+        <h4 class="blogDate">4/12/2020</h4>
+        <p class = "blogText"> Well today sucked, I was sick so not too much ended up getting done. The main page for robotics is done though! just need the pictures
+            and quotes. I played around with a drop-down system but I kind of gave up on it. Honestly I think I'm only going to get the FTC page done before 4/14<br>
+            What I got Done: <br>
+            FTC Robotics page added and nearly complete<br><br>
+            TODO: <br>
+            Work on sub-pages and more content<br>
+        </p>
+    </article>
+    <article class="blog">
+        <h3 class="blogTitle">Day 4! Give it up for Day 4!</h3>
+        <h4 class="blogDate">4/1/2020</h4>
+        <p class = "blogText"> Wow, that was a lot. Main page is finished, styling and layout is finalized and i've got images from the old Wix portfolio uploaded.
+            This took a while but this was most likely my most productive day. And the Devblog got styled today! It used to be just kind of a wall of text but now it's
+            stylized and organized a bit better. I looked up the CSS transition property and now the buttons grow and change background gradually when you hover over them!
+            The Header also phades in and out now due to a script i added!<br>
+            What I got Done: <br>
+            Layouts finalized and colorization changed, content and images for main page is done, but this may be changed later.<br>
+            added CSS transitions for button and header phade <br>
+            added header phade script <br>
+            TODO: <br>
+            Work on sub-pages and more content<br>
+            Implement dropdown system for links</p>
+    </article>
+    <article class="blog">
+        <h3 class="blogTitle">This is day 3, and holy smokes did a lot get done</h3>
+        <h4 class="blogDate">4/10/2020</h4>
+        <p class = "blogText"> HOLY CRAP I got stuff done, organization of main page is finalized and so is the majority of styling
+            everything is pretty and in colors and the page adjust to viewport height and width well.<br>
+            What Got Done: <br>
+            Standardized layout done, header done, styling done, coloring done, CSS Reset implemented <br>
+            TODO: <br>
+            Complete the full content for Index/home/aboutme page, start hosting, and begin work on sub-pages <br>
+            Research ways to make things pretty (drop downs, gradual color changes, header phade, etc.)</p>
+    </article>
+    <article class="blog">
+        <h3  class="blogTitle">Day 1? Day 1.5? Day 2? idk</h3>
+        <h4 class="blogDate">4/9/2020</h4>
+        <p class = "blogText"> A lot of progress, flexbox made layout really easy and I got the index page organized, everything is still pretty fugly and i might
+            revisit later today, but otherwise we got some good stuff done here<br>
+            What Got Done: <br>
+            implemented layout for index and some standardized layouts <br>
+            TODO: <br>
+            Get some of the basic styling and coloring done <br>
+            Complete the full content for Index/home/aboutme page, start hosting, and begin work on sub-pages <br>
+            Refine the organization so that a couple specifically spoopy things don't happen when you make the page too thin</p>
+    </article>
+    <article class="blog">
+        <h3  class="blogTitle">Fresh Start</h3>
+        <h4 class="blogDate">4/8/2020</h4>
+        <p class = "blogText">Literally everything was deleted, only thing that is the same is the github repository. Working on a new computer and a new design with knowledge
+            about flexbox. New year, new portfolio. Devblog start's here and entries will likely be daily for a while. <br>
+            What Got Done: <br>
+            Made layouts for home, content, gallery, and devblog page <br>
+            TODO: <br>
+            begin HTML development and content, Home page first
+            Implement flexbox systems and develop website header</p>
+    </article>
+</section>
+<footer class="footer">
+    <p>&copy;Copyright 2020 Jeremy Murray</p>
 </footer>
+<script src="siteJS.js"></script>
 </body>
 </html>
