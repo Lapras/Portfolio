@@ -25,12 +25,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41c75c7b-a9ab-4993-8056-f907e4f8c47a" name="Default Changelist" comment="Fuck tgis">
-      <change afterPath="$PROJECT_DIR$/SeaCadets.html" afterDir="false" />
+    <list default="true" id="41c75c7b-a9ab-4993-8056-f907e4f8c47a" name="Default Changelist" comment="WOOOOO SEA CADET PAGE.&#10;&#10;7/21 Devlog Update&#10;TODO update">
+      <change afterPath="$PROJECT_DIR$/Personal.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CADMachine.html" beforeDir="false" afterPath="$PROJECT_DIR$/CADMachine.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FTCRobotics.html" beforeDir="false" afterPath="$PROJECT_DIR$/FTCRobotics.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeaCadets.html" beforeDir="false" afterPath="$PROJECT_DIR$/SeaCadets.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TODO" beforeDir="false" afterPath="$PROJECT_DIR$/TODO" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/competitions.html" beforeDir="false" afterPath="$PROJECT_DIR$/competitions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devBlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/devBlog.html" afterDir="false" />
@@ -77,7 +78,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595352985035</updated>
-      <workItem from="1595352987421" duration="4240000" />
+      <workItem from="1595352987421" duration="4919000" />
+      <workItem from="1595444538954" duration="5029000" />
     </task>
     <task id="LOCAL-00001" summary="Fuck tgis">
       <created>1595353320058</created>
@@ -100,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595354038773</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="WOOOOO SEA CADET PAGE.&#10;&#10;7/21 Devlog Update&#10;TODO update">
+      <created>1595376660305</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595376660305</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,19 +137,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fuck tgis" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fuck tgis" />
+    <MESSAGE value="WOOOOO SEA CADET PAGE.&#10;&#10;7/21 Devlog Update&#10;TODO update" />
+    <option name="LAST_COMMIT_MESSAGE" value="WOOOOO SEA CADET PAGE.&#10;&#10;7/21 Devlog Update&#10;TODO update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="598" y="281" key="MultipleFileMergeDialog" timestamp="1595354180814">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="598" y="281" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595354180814" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1595354192540">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1595376665514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595354192540" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595376665514" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1595445541153">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595445541153" />
   </component>
 </project>
