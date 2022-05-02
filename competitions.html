@@ -6,24 +6,43 @@
     <title>Competitions</title>
 </head>
 <body>
+<div id="spacer">
+</div>
 <header id="header">
     <section class = "headerContainer">
         <h2 class="headerName">Jeremy<br> &nbsp &nbsp &nbsp Murray</h2>
         <h3 class="headerContact">Contact me at: <br> <a href="mailto: jermurray2@gmail.com" id="emailLink">jermurray2@gmail.com</a></h3>
     </section>
     <nav class="navContainer">
-        <button class="navButton" onclick="window.location.href = 'Index.html';">Home</button>
-        <button class="navButton" onclick="window.location.href = 'FTCRobotics.html';">FTC Robotics</button>
-        <button class="navButton" onclick="window.location.href = 'SeaCadets.html';">Sea Cadets</button>
-        <button class="navButton" onclick="window.location.href = 'Personal.html';">Personal Endeavors</button>
-        <button class="navButton" onclick="window.location.href = 'DevBlog.html';">DevBlog</button>
+        <ul class="navColumn" onclick="window.location.href = 'Index.html';">
+            <a class = "navButton">Home</a>
+        </ul>
+        <ul class="navColumn parent">
+            <a class = "navButton" onclick="window.location.href = 'FTCRobotics.html';">Robotics &#x25BC;</a>
+            <a>
+                <ul>
+                    <a class = "navButton subButton" onclick="window.location.href = 'software.html';">Software</a>
+                    <a class = "navButton subButton" onclick="window.location.href = 'CADMachine.html';">CAD and Machinery</a>
+                    <a class = "navButton subButton bottom" onclick="window.location.href = 'competitions.html';">Competitions</a>
+                </ul>
+            </a>
+        </ul>
+        <ul class="navColumn" onclick="window.location.href = 'SeaCadets.html';">
+            <a class = "navButton">Sea Cadets</a>
+        </ul>
+        <ul class="navColumn" onclick="window.location.href = 'Personal.html';">
+            <a class = "navButton">Personal Endeavors</a>
+        </ul>
+        <ul class="navColumn" onclick="window.location.href = 'DevBlog.html';">
+            <a class = "navButton">DevBlog</a>
+        </ul>
     </nav>
 </header>
 <section id="aboutContainer">
     <img src="Imgs/CompPic.jpg" id="selfPic">
     <div id="aboutText">
         <h4 id="aboutTitle">Competitions</h4>
-        <p><br>The hard work we put in on the robotics team culminates in competitions, where teams cooperate and compete to advance to state, and even worlds competitions.
+        <p><br>The hard work of FTC culminates in competitions, where teams cooperate and compete to advance to state, and even worlds competitions.
         Each year the game changes to present new challenges to the teams. Each member of the team is helping in some way during the competitions and it can become
         very hectic. Scroll down to visit the major parts of a competition.</p>
     </div>
@@ -93,7 +112,8 @@
             <p>Teams are able to win awards at competitions for both competing well as well as performing outstanding community outreach. Here are some of the awards
                 that we have won during my time on the team</p>
             <ul>
-                <li>Advancement to 2020 NJ States Competition (Postponed or canceled due to Coronavirus)</li>
+                <li>Advancement to 2021 NJ States Competition</li>
+                <li>Advancement to 2020 NJ States Competition (Canceled due to Coronavirus)</li>
                 <li>1st Place Think Award (Engineering)</li>
                 <li>2nd Place Inspire Award (Overall)</li>
                 <li>Top 3 Control Award (Software)</li>
@@ -110,9 +130,6 @@
     <h5 class="quoteCite">-Bruce Lee</h5>
     <img src="Imgs/B.%20Lee.png" class="quoteImg">
 </section>
-<footer class="footer">
-    <p>&copy;Copyright 2020 Jeremy Murray</p>
-</footer>
 <script src="siteJS.js"></script>
 </body>
 </html>

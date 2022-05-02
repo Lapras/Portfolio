@@ -38,3 +38,8 @@ function showDivs(n) {
     y[slideIndex-1].style.display = "block";
     //displaying the currently selected div
 }
+
+function toggleFixed () {
+    var parentwidth = $(".parent").width();
+    $(".child").toggleClass("absolute").width(parentwidth);
+}

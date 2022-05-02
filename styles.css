@@ -49,7 +49,7 @@ table {
 }
 
 /* webkit transitions so that we have an ease in/out for color and size changed*/
-button, header {
+button, header, a, ul {
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
@@ -82,6 +82,8 @@ ul {
 /* header Gradient*/
 header {
     background: linear-gradient(#af1f0f, #de0f0f);
+    max-height: 15vh;
+    overflow: visible;
 }
 /* footer coloring*/
 footer {
@@ -92,21 +94,86 @@ footer {
 .navContainer {
     display:flex;
     margin: 10px 2vw;
+    text-decoration: none;
+    transition: background 0.4s;
+    background: transparent;
 }
+
+.navColumn {
+    justify-content: center;
+    border-width: 4px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background: transparent;
+    color: #e7e8e8;
+    font-size: 16px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px 10px;
+}
+
+.navColumn a{
+    display:flex;
+    flex-direction: column;
+    width: inherit;
+    align-items: center;
+}
+
+.navColumn ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    top: 130px;
+    opacity: 0;
+    min-width: 50px;
+}
+
+.navColumn:hover > ul {
+    display: flex;
+    flex-grow: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    opacity: 1;
+}
+
 .navButton {
+    border-style: solid;
+    justify-content: center;
+    border-width: 4px;
     flex-grow: 1;
     flex-shrink: 1;
     border-color: black;
-    border-radius: 60px 0px;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+    border-width: 4px;
     background-color: #40403f;
     color: #e7e8e8;
     font-size: 16px;
+    text-align: center;
+    padding: 6px;
+    width: 100%;
+    margin: 0px;
 }
+
 /*effects when a user hover's over the nav button*/
+.navColumn:hover {
+    flex-grow: 1.3;
+    cursor: pointer;
+}
 .navButton:hover {
-    flex-grow: 1.2;
+    flex-grow: 1.3;
     cursor: pointer;
     background-color: #c7170f;
+}
+
+.subButton {
+    border-radius: 0;
+}
+
+.bottom {
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
 }
 
 .dropWrapper {
@@ -143,7 +210,7 @@ Having a right-side text standard content simply uses .left as a class, making t
 .standardContainer {
     background-color: #c7170f;
     display: flex;
-    height: 50vh;
+    height: 25vw;
 }
 .left {
     flex-flow: row-reverse;
@@ -280,7 +347,7 @@ Having a right-side text standard content simply uses .left as a class, making t
 }
 /*about me image+caption portion*/
 #aboutContainer {
-    height: 40vh;
+    height: 45vh;
     background: #c7170f;
 }
 #aboutText {
@@ -314,6 +381,10 @@ Having a right-side text standard content simply uses .left as a class, making t
     text-align: center;
     padding: 140px 10% 40px;
 }
+#spacer {
+    height: 10vh;
+    display: block;
+}
 .devSubHeader {
     font-size: 24px;
 }
@@ -346,6 +417,7 @@ Having a right-side text standard content simply uses .left as a class, making t
 #header {
     position: fixed; /* Fixed position - sit on top of the page */
     top: 0;
+    min-height: 140px;
     width: 100%; /* Full width */
     z-index: 1;
 }

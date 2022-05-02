@@ -26,10 +26,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41c75c7b-a9ab-4993-8056-f907e4f8c47a" name="Default Changelist" comment="Finality update&#10;changed to senior&#10;updated button names">
-      <change afterPath="$PROJECT_DIR$/Vids/Auton3.MOV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imgs/ShooterCAD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imgs/ShooterHeader.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TAMU.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vids/FAuton.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vids/Shooter.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vids/TOp.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CADMachine.html" beforeDir="false" afterPath="$PROJECT_DIR$/CADMachine.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FTCRobotics.html" beforeDir="false" afterPath="$PROJECT_DIR$/FTCRobotics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Personal.html" beforeDir="false" afterPath="$PROJECT_DIR$/Personal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeaCadets.html" beforeDir="false" afterPath="$PROJECT_DIR$/SeaCadets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/competitions.html" beforeDir="false" afterPath="$PROJECT_DIR$/competitions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devBlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/devBlog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/siteJS.js" beforeDir="false" afterPath="$PROJECT_DIR$/siteJS.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/software.html" beforeDir="false" afterPath="$PROJECT_DIR$/software.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +52,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1f0RNdZGB0ouzzI1Z8gUwgjiRo5" />
   <component name="ProjectViewState">
@@ -60,6 +84,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jermu\WebstormProjects\Portfolio" />
       <recent name="C:\Users\Jeremy\WebstormProjects\Portfolio" />
     </key>
   </component>
@@ -78,6 +103,13 @@
       <workItem from="1595444538954" duration="5029000" />
       <workItem from="1610769322413" duration="352000" />
       <workItem from="1614037711653" duration="606000" />
+      <workItem from="1649192994479" duration="69000" />
+      <workItem from="1649193087304" duration="6012000" />
+      <workItem from="1649254369102" duration="3255000" />
+      <workItem from="1649291674402" duration="2035000" />
+      <workItem from="1649354982498" duration="6747000" />
+      <workItem from="1650503670814" duration="747000" />
+      <workItem from="1651515146561" duration="11665000" />
     </task>
     <task id="LOCAL-00001" summary="Fuck tgis">
       <created>1595353320058</created>
@@ -149,7 +181,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fuck tgis" />

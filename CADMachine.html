@@ -6,25 +6,44 @@
     <title>CAD and Machinery</title>
 </head>
 <body>
+<div id="spacer">
+</div>
 <header id="header">
     <section class = "headerContainer">
         <h2 class="headerName">Jeremy<br> &nbsp &nbsp &nbsp Murray</h2>
         <h3 class="headerContact">Contact me at: <br> <a href="mailto: jermurray2@gmail.com" id="emailLink">jermurray2@gmail.com</a></h3>
     </section>
     <nav class="navContainer">
-        <button class="navButton" onclick="window.location.href = 'Index.html';">Home</button>
-        <button class="navButton" onclick="window.location.href = 'FTCRobotics.html';">FTC Robotics</button>
-        <button class="navButton" onclick="window.location.href = 'SeaCadets.html';">Sea Cadets</button>
-        <button class="navButton" onclick="window.location.href = 'Personal.html';">Personal Endeavors</button>
-        <button class="navButton" onclick="window.location.href = 'DevBlog.html';">DevBlog</button>
+        <ul class="navColumn" onclick="window.location.href = 'Index.html';">
+            <a class = "navButton">Home</a>
+        </ul>
+        <ul class="navColumn parent">
+            <a class = "navButton" onclick="window.location.href = 'FTCRobotics.html';">Robotics &#x25BC;</a>
+            <a>
+                <ul>
+                    <a class = "navButton subButton" onclick="window.location.href = 'software.html';">Software</a>
+                    <a class = "navButton subButton" onclick="window.location.href = 'CADMachine.html';">CAD and Machinery</a>
+                    <a class = "navButton subButton bottom" onclick="window.location.href = 'competitions.html';">Competitions</a>
+                </ul>
+            </a>
+        </ul>
+        <ul class="navColumn" onclick="window.location.href = 'SeaCadets.html';">
+            <a class = "navButton">Sea Cadets</a>
+        </ul>
+        <ul class="navColumn" onclick="window.location.href = 'Personal.html';">
+            <a class = "navButton">Personal Endeavors</a>
+        </ul>
+        <ul class="navColumn" onclick="window.location.href = 'DevBlog.html';">
+            <a class = "navButton">DevBlog</a>
+        </ul>
     </nav>
 </header>
 <section id="aboutContainer">
-    <img src="Imgs/Drawer%20Slides.png" id="selfPic">
+    <img src="Imgs/ShooterHeader.png" id="selfPic">
     <div id="aboutText">
         <h4 id="aboutTitle">CAD and Machinery</h4>
-        <p><br>The team uses Autodesk Inventor in Computer Aided Design (CAD). We can use these CADs to better visualize software, or to create
-        custom parts through the machine's in our schools techlab. Scroll down for more info on what I've done with CAD as well as the machines that we use.</p>
+        <p><br>The team has made extensive use of Autodesk Inventor and Computer Aided Design (CAD). Which is used to better visualize hardware or create entirely custom parts through the machines in the school techlab. Scroll down
+            for more information on what I've done with CAD over my years in FTC, and the machines used to create the custom parts.</p>
     </div>
 </section>
 <section class="quoteContainer">
@@ -106,14 +125,24 @@
         <img src="Imgs/Cinnaminson.jpg" class="standardImg">
     </div>
 </section>
+<section class="standardContainer">
+    <div class="standardTextBox">
+        <div class="standardTextBoxSub">
+            <h4 class="standardHeader">Flywheel Shooter Assembly</h4>
+            <p>A collaboration between multiple team members including myself. The main scoring function of the 2020-2021 Robot was a flywheel shooter assembly that was
+            completely custom designed and 3D printed. Parts to adapt to GOBILDA U-Channels, the main assembly, and other addons went through multiple iterations
+            before finally being implemented.</p>
+        </div>
+    </div>
+    <div class="standardImageBox">
+        <img src="Imgs/ShooterCAD.png" class="standardImg">
+    </div>
+</section>
 <section class="quoteContainer">
     <h4 class="quoteText">"If my mind can conceive it, and my heart can believe it - then I can achieve it."</h4>
     <h5 class="quoteCite">-Muhammad Ali</h5>
     <img src="Imgs/Ali.png" class="quoteImg">
 </section>
-<footer class="footer">
-    <p>&copy;Copyright 2020 Jeremy Murray</p>
-</footer>
 <script src="siteJS.js"></script>
 </body>
 </html>

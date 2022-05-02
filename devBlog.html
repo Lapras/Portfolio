@@ -12,11 +12,28 @@
         <h3 class="headerContact">Contact me at: <br> <a href="mailto: jermurray2@gmail.com" id="emailLink">jermurray2@gmail.com</a></h3>
     </section>
     <nav class="navContainer">
-        <button class="navButton" onclick="window.location.href = 'Index.html';">Home</button>
-        <button class="navButton" onclick="window.location.href = 'FTCRobotics.html';">FTC Robotics</button>
-        <button class="navButton" onclick="window.location.href = 'SeaCadets.html';">Sea Cadets</button>
-        <button class="navButton" onclick="window.location.href = 'Personal.html';">Personal Endeavors</button>
-        <button class="navButton" onclick="window.location.href = 'DevBlog.html';">DevBlog</button>
+        <ul class="navColumn" onclick="window.location.href = 'Index.html';">
+            <a class = "navButton">Home</a>
+        </ul>
+        <ul class="navColumn parent">
+            <a class = "navButton" onclick="window.location.href = 'FTCRobotics.html';">Robotics &#x25BC;</a>
+            <a>
+                <ul>
+                    <a class = "navButton subButton" onclick="window.location.href = 'software.html';">Software</a>
+                    <a class = "navButton subButton" onclick="window.location.href = 'CADMachine.html';">CAD and Machinery</a>
+                    <a class = "navButton subButton bottom" onclick="window.location.href = 'competitions.html';">Competitions</a>
+                </ul>
+            </a>
+        </ul>
+        <ul class="navColumn" onclick="window.location.href = 'SeaCadets.html';">
+            <a class = "navButton">Sea Cadets</a>
+        </ul>
+        <ul class="navColumn" onclick="window.location.href = 'Personal.html';">
+            <a class = "navButton">Personal Endeavors</a>
+        </ul>
+        <ul class="navColumn" onclick="window.location.href = 'DevBlog.html';">
+            <a class = "navButton">DevBlog</a>
+        </ul>
     </nav>
 </header>
 <section id = "devHeader">
@@ -25,6 +42,26 @@
 </section>
 <section class="development">
     <h2 class="devSubHeader">Blog Entries:</h2>
+    <article class="blog">
+        <h3 class="blogTitle">Guess who's back? Back again.</h3>
+        <h4 class="blogDate">4/7/2022</h4>
+        <p class = "blogText">Well, it's been a while, and I'm in college now. But I'm hosting again, and theres going to be some major content additions for the site. More 20-21 Robotics media,
+            updates to the Robotics page, and likely a removal of the Sea Cadets page as it's integrated into the Personal section. I'm a freshman at A&M now, so I'll probably be updating the pages
+            look slightly with a maroon color (it's a good color scheme and I've been informed the red is harsh). And I'll be adding a section about the Corps of Cadets, with a section about the college itself
+            in the personal section (or maybe just one setion about A&M and a subpage about the corps I haven't decided.)
+            But if you notice, the header has changed a bit! In a refresher on my HTML, CSS, and Javascript skills I've added a drop-down menu for robotics! Which I'll probably start implementing more. That's
+            been what most of my development time has been spent on so far (it was honestly quite interesing to reverse-engineer the tutorial video and apply it to the flexbox structure.) But content updates will be soon.
+            aside from the fancy drop-downs. The most noticable change is in hosting. I'm still using netlify, but freenom is still updating the nameservers as I write this, and so I've decided to begin using the new
+            tx.ag/ link shortener that A&M provides, which is a wonderful way to clean up links I can put in my resume, although I hope in the future I can still link the shortener to the original jeremymurray.tk domain name.
+            <br>
+            TODO: <br>
+            Texas A&M page <br>
+            Sea Cadets relocation <br>
+            Robotics update <br>
+            Homepage information update <br>
+            Site aesthetics update.
+        </p>
+    </article>
     <article class="blog">
         <h3 class="blogTitle">Tiny additions</h3>
         <h4 class="blogDate">2/22/2021</h4>
@@ -183,9 +220,6 @@
             Implement flexbox systems and develop website header</p>
     </article>
 </section>
-<footer class="footer">
-    <p>&copy;Copyright 2020 Jeremy Murray</p>
-</footer>
 <script src="siteJS.js"></script>
 </body>
 </html>

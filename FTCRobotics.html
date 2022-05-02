@@ -6,26 +6,44 @@
     <title>FTC Robotics</title>
 </head>
 <body>
+<div id="spacer">
+</div>
 <header id="header">
     <section class = "headerContainer">
         <h2 class="headerName">Jeremy<br> &nbsp &nbsp &nbsp Murray</h2>
         <h3 class="headerContact">Contact me at: <br> <a href="mailto: jermurray2@gmail.com" id="emailLink">jermurray2@gmail.com</a></h3>
     </section>
     <nav class="navContainer">
-        <button class="navButton" onclick="window.location.href = 'Index.html';">Home</button>
-        <button class="navButton" onclick="window.location.href = 'FTCRobotics.html';">FTC Robotics</button>
-        <button class="navButton" onclick="window.location.href = 'SeaCadets.html';">Sea Cadets</button>
-        <button class="navButton" onclick="window.location.href = 'Personal.html';">Personal Endeavors</button>
-        <button class="navButton" onclick="window.location.href = 'DevBlog.html';">DevBlog</button>
+        <ul class="navColumn" onclick="window.location.href = 'Index.html';">
+            <a class = "navButton">Home</a>
+        </ul>
+        <ul class="navColumn parent">
+            <a class = "navButton" onclick="window.location.href = 'FTCRobotics.html';">Robotics &#x25BC;</a>
+            <a>
+                <ul>
+                    <a class = "navButton subButton" onclick="window.location.href = 'software.html';">Software</a>
+                    <a class = "navButton subButton" onclick="window.location.href = 'CADMachine.html';">CAD and Machinery</a>
+                    <a class = "navButton subButton bottom" onclick="window.location.href = 'competitions.html';">Competitions</a>
+                </ul>
+            </a>
+        </ul>
+        <ul class="navColumn" onclick="window.location.href = 'SeaCadets.html';">
+            <a class = "navButton">Sea Cadets</a>
+        </ul>
+        <ul class="navColumn" onclick="window.location.href = 'Personal.html';">
+            <a class = "navButton">Personal Endeavors</a>
+        </ul>
+        <ul class="navColumn" onclick="window.location.href = 'DevBlog.html';">
+            <a class = "navButton">DevBlog</a>
+        </ul>
     </nav>
 </header>
 <section id="aboutContainer">
     <img src="Imgs/TeamPic.JPG" id="selfPic">
     <div id="aboutText">
         <h4 id="aboutTitle">Robotics</h4>
-        <p><br>FTC 14020 is a First Tech Challenge Robotics team based in Robbinsville High School We are 15 dedicated members who work together to create a robot
-        designed to accomplish tasks in a different challenge each year. We  strive to fun ourselves through marketing, sponsors, and grants. We also
-        strive to serve the community and teach them about important STEM skills in the 21st century, spreading the message of the FIRST organization.</p>
+        <p><br>FTC 14020 is a First Tech Challenge Robotics team based in Robbinsville High School. I was a member of FTC 14020 from 2018-2021. The organization has taught me many lessons about
+            teamwork, engineering, and leadership. It has served as a challenge of many of my own skills, and my work for the team consists of some of my proudest engineering accomplishments yet.</p>
     </div>
 </section>
 <section class="quoteContainer">
@@ -37,8 +55,8 @@
     <div class="standardTextBox">
         <div class="standardTextBoxSub">
             <h4 class="standardHeader">Software</h4>
-            <p>See what fellow software members and I have been up to, from creating motion profiles, to interacting with google's Tensorflow, a machine learning software
-            to interpret visual data from a webcam.</p>
+            <p>See my achievments as one of the programmers on FTC 14020, and the technology that was used to create autonomous and driver-controlled programs. From sensors, to motion profiles
+                and even interacting with machine learning software.</p>
             <button class="standardButton" onclick="window.location.href = 'software.html'">Software</button>
         </div>
     </div>
@@ -50,8 +68,8 @@
     <div class="standardTextBox">
         <div class="standardTextBoxSub">
             <h4 class="standardHeader">CAD and Machinery</h4>
-            <p>See what i've designed for the team using Autodesk Inventor, a CAD software that allows us to create custom parts, assemblies, and digitally visualize
-            everything from a single component to the whole robot. As well as how we use machinery in the techlab to make these designs a reality.</p>
+            <p>See what i've designed for the team using Autodesk Inventor, a CAD software that allows the creation of custom parts, assemblies, and digitally visualize
+            everything from a single component to the whole robot. As well as the machinery used in the techlab to make these designs a reality.</p>
             <button class="standardButton" onclick="window.location.href = 'CADMachine.html'">CAD and Machinery</button>
         </div>
     </div>
@@ -63,7 +81,7 @@
     <div class="standardTextBox">
         <div class="standardTextBoxSub">
             <h4 class="standardHeader">Competitions</h4>
-            <p>See what the team does at our competitions, as well as what we have accomplished.</p>
+            <p>See what the FTC competitions looked like, and how FTC 14020 performed.</p>
             <button class="standardButton" onclick="window.location.href = 'competitions.html'">Competitions</button>
         </div>
     </div>
@@ -76,9 +94,6 @@
     <h5 class="quoteCite">-Mrs. Young, FTC Mentor</h5>
     <img src="Imgs/NemesisLogo.PNG.png" class="quoteImg">
 </section>
-<footer class="footer">
-    <p>&copy;Copyright 2020 Jeremy Murray</p>
-</footer>
 <script src="siteJS.js"></script>
 </body>
 </html>
