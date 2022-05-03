@@ -27,16 +27,7 @@
   <component name="ChangeListManager">
     <list default="true" id="41c75c7b-a9ab-4993-8056-f907e4f8c47a" name="Default Changelist" comment="Finality update&#10;changed to senior&#10;updated button names">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CADMachine.html" beforeDir="false" afterPath="$PROJECT_DIR$/CADMachine.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FTCRobotics.html" beforeDir="false" afterPath="$PROJECT_DIR$/FTCRobotics.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Personal.html" beforeDir="false" afterPath="$PROJECT_DIR$/Personal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SeaCadets.html" beforeDir="false" afterPath="$PROJECT_DIR$/SeaCadets.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TAMU.html" beforeDir="false" afterPath="$PROJECT_DIR$/TAMU.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/competitions.html" beforeDir="false" afterPath="$PROJECT_DIR$/competitions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devBlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/devBlog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software.html" beforeDir="false" afterPath="$PROJECT_DIR$/software.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +94,7 @@
       <workItem from="1649291674402" duration="2035000" />
       <workItem from="1649354982498" duration="6747000" />
       <workItem from="1650503670814" duration="747000" />
-      <workItem from="1651515146561" duration="17690000" />
+      <workItem from="1651515146561" duration="19072000" />
     </task>
     <task id="LOCAL-00001" summary="Fuck tgis">
       <created>1595353320058</created>
@@ -154,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651533507398</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Finality update&#10;changed to senior&#10;updated button names">
+      <created>1651539594454</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1651539594454</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
