@@ -81,13 +81,13 @@ ul {
 }
 /* header Gradient*/
 header {
-    background: linear-gradient(#af1f0f, #de0f0f);
+    background: linear-gradient(#9f190b, #af1f0f);
     max-height: 15vh;
     overflow: visible;
 }
 /* footer coloring*/
 footer {
-    background: #c7170f;
+    background: #af1f0f;
 }
 
 /*navigation Container and nav buttons*/
@@ -164,7 +164,7 @@ footer {
 .navButton:hover {
     flex-grow: 1.3;
     cursor: pointer;
-    background-color: #c7170f;
+    background-color: #af1f0f;
 }
 
 .subButton {
@@ -208,7 +208,7 @@ footer {
 /* Standardized 1:3 layout sections and their styling, the "sub" level text box creates a simple way to create a smaller wrapper for text content
 Having a right-side text standard content simply uses .left as a class, making the flex flow row-reverse*/
 .standardContainer {
-    background-color: #c7170f;
+    background-color: #af1f0f;
     display: flex;
     height: 25vw;
 }
@@ -229,7 +229,7 @@ Having a right-side text standard content simply uses .left as a class, making t
 .standardTextBoxSub {
     padding: 20px;
     text-align: center;
-    border: #c7170f solid;
+    border: #af1f0f solid;
     border-radius: 40px;
     width: 50%;
     margin: 50px auto;
@@ -258,7 +258,7 @@ Having a right-side text standard content simply uses .left as a class, making t
     margin: 26px 1vw;
     border-color: black;
     border-radius: 20px;
-    background-color: #c7170f;
+    background-color: #af1f0f;
     color: #e7e8e8;
     font-size: 16px;
 }
@@ -274,7 +274,7 @@ Having a right-side text standard content simply uses .left as a class, making t
     background-color: #40403f;
 }
 .standardHeader {
-    color: #c7170f;
+    color: #af1f0f;
     text-decoration: underline;
     font-size: 32px;
     margin-bottom: 26px;
@@ -347,8 +347,8 @@ Having a right-side text standard content simply uses .left as a class, making t
 }
 /*about me image+caption portion*/
 #aboutContainer {
-    height: 45vh;
-    background: #c7170f;
+    height: 50vh;
+    background: #111111;
 }
 #aboutText {
     width: 600px;
@@ -358,9 +358,9 @@ Having a right-side text standard content simply uses .left as a class, making t
     left: 40px;
     color: #e7e8e8;
     font-size: 16px;
-    border: solid #40403f;
+    border: solid #af1f0f;
     border-radius: 20px;
-    background: #c7170f;
+    background: #40403f;
 }
 #aboutTitle {
     font-size: 28px;
@@ -389,7 +389,7 @@ Having a right-side text standard content simply uses .left as a class, making t
     font-size: 24px;
 }
 .development {
-    background: #c7170f;
+    background: #af1f0f;
     text-align: center;
 }
 .blog {
