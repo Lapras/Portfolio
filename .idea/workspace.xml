@@ -25,21 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41c75c7b-a9ab-4993-8056-f907e4f8c47a" name="Default Changelist" comment="8/8 Rising Sophomore update and link fixes">
-      <change afterPath="$PROJECT_DIR$/Murray Resume REV2_11_23.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CADMachine.html" beforeDir="false" afterPath="$PROJECT_DIR$/CADMachine.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FTCRobotics.html" beforeDir="false" afterPath="$PROJECT_DIR$/FTCRobotics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MurrayResume.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Personal.html" beforeDir="false" afterPath="$PROJECT_DIR$/Personal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SeaCadets.html" beforeDir="false" afterPath="$PROJECT_DIR$/SeaCadets.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TAMU.html" beforeDir="false" afterPath="$PROJECT_DIR$/TAMU.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TODO" beforeDir="false" afterPath="$PROJECT_DIR$/TODO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/competitions.html" beforeDir="false" afterPath="$PROJECT_DIR$/competitions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devBlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/devBlog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/software.html" beforeDir="false" afterPath="$PROJECT_DIR$/software.html" afterDir="false" />
-    </list>
+    <list default="true" id="41c75c7b-a9ab-4993-8056-f907e4f8c47a" name="Default Changelist" comment="2/12&#10;Update to end of sophomore year, prep for stuff. Added More A&amp;M sections about Cyber, Maroon Engine, ACC, etc. Updated some software page stuff, updated resume, updated devlog, killed herobrine." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +96,7 @@
       <workItem from="1659984177927" duration="1810000" />
       <workItem from="1661998860905" duration="17000" />
       <workItem from="1676182051164" duration="123000" />
-      <workItem from="1676182188044" duration="5669000" />
+      <workItem from="1676182188044" duration="6342000" />
     </task>
     <task id="LOCAL-00001" summary="Fuck tgis">
       <created>1595353320058</created>
@@ -196,7 +182,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659985984086</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="2/12&#10;Update to end of sophomore year, prep for stuff. Added More A&amp;M sections about Cyber, Maroon Engine, ACC, etc. Updated some software page stuff, updated resume, updated devlog, killed herobrine.">
+      <created>1676187972059</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1676187972059</updated>
+    </task>
+    <task id="LOCAL-00014" summary="2/12&#10;Update to end of sophomore year, prep for stuff. Added More A&amp;M sections about Cyber, Maroon Engine, ACC, etc. Updated some software page stuff, updated resume, updated devlog, killed herobrine.">
+      <created>1676187990860</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1676187990860</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +232,7 @@
     <MESSAGE value="Update Before ETAM" />
     <MESSAGE value="Vid Gallery Updates" />
     <MESSAGE value="8/8 Rising Sophomore update and link fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="8/8 Rising Sophomore update and link fixes" />
+    <MESSAGE value="2/12&#10;Update to end of sophomore year, prep for stuff. Added More A&amp;M sections about Cyber, Maroon Engine, ACC, etc. Updated some software page stuff, updated resume, updated devlog, killed herobrine." />
+    <option name="LAST_COMMIT_MESSAGE" value="2/12&#10;Update to end of sophomore year, prep for stuff. Added More A&amp;M sections about Cyber, Maroon Engine, ACC, etc. Updated some software page stuff, updated resume, updated devlog, killed herobrine." />
   </component>
 </project>
