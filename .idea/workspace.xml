@@ -25,8 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41c75c7b-a9ab-4993-8056-f907e4f8c47a" name="Default Changelist" comment="2/12&#10;Update to end of sophomore year, prep for stuff. Added More A&amp;M sections about Cyber, Maroon Engine, ACC, etc. Updated some software page stuff, updated resume, updated devlog, killed herobrine.">
-      <change beforePath="$PROJECT_DIR$/Murray Resume REV2_11_23.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Murray Resume REV2_11_23.pdf" afterDir="false" />
+    <list default="true" id="41c75c7b-a9ab-4993-8056-f907e4f8c47a" name="Default Changelist" comment="Resume update 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Personal.html" beforeDir="false" afterPath="$PROJECT_DIR$/Personal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devBlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/devBlog.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +100,8 @@
       <workItem from="1659984177927" duration="1810000" />
       <workItem from="1661998860905" duration="17000" />
       <workItem from="1676182051164" duration="123000" />
-      <workItem from="1676182188044" duration="6821000" />
+      <workItem from="1676182188044" duration="6973000" />
+      <workItem from="1676422271078" duration="163000" />
     </task>
     <task id="LOCAL-00001" summary="Fuck tgis">
       <created>1595353320058</created>
@@ -212,7 +215,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676243897920</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Resume update">
+      <created>1676244048408</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1676244048408</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Resume update 2">
+      <created>1676244138557</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1676244138557</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +266,8 @@
     <MESSAGE value="Vid Gallery Updates" />
     <MESSAGE value="8/8 Rising Sophomore update and link fixes" />
     <MESSAGE value="2/12&#10;Update to end of sophomore year, prep for stuff. Added More A&amp;M sections about Cyber, Maroon Engine, ACC, etc. Updated some software page stuff, updated resume, updated devlog, killed herobrine." />
-    <option name="LAST_COMMIT_MESSAGE" value="2/12&#10;Update to end of sophomore year, prep for stuff. Added More A&amp;M sections about Cyber, Maroon Engine, ACC, etc. Updated some software page stuff, updated resume, updated devlog, killed herobrine." />
+    <MESSAGE value="Resume update" />
+    <MESSAGE value="Resume update 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resume update 2" />
   </component>
 </project>
