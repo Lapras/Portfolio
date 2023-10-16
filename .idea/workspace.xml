@@ -25,9 +25,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41c75c7b-a9ab-4993-8056-f907e4f8c47a" name="Default Changelist" comment="The not funny typo update &#10;AND i forgot the pagebreaks on the devlog">
+    <list default="true" id="41c75c7b-a9ab-4993-8056-f907e4f8c47a" name="Default Changelist" comment="ahahaha no omre domain name">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devBlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/devBlog.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +101,8 @@
       <workItem from="1676182188044" duration="6973000" />
       <workItem from="1676422271078" duration="1122000" />
       <workItem from="1676484554504" duration="893000" />
-      <workItem from="1681187176583" duration="71000" />
+      <workItem from="1681187176583" duration="686000" />
+      <workItem from="1690830157755" duration="174000" />
     </task>
     <task id="LOCAL-00001" summary="Fuck tgis">
       <created>1595353320058</created>
@@ -251,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676484849972</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="ahahaha no omre domain name">
+      <created>1681187267233</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1681187267233</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,6 +300,7 @@
     <MESSAGE value="uhhhh funny typo and ACC details change" />
     <MESSAGE value="The not funny typo update" />
     <MESSAGE value="The not funny typo update &#10;AND i forgot the pagebreaks on the devlog" />
-    <option name="LAST_COMMIT_MESSAGE" value="The not funny typo update &#10;AND i forgot the pagebreaks on the devlog" />
+    <MESSAGE value="ahahaha no omre domain name" />
+    <option name="LAST_COMMIT_MESSAGE" value="ahahaha no omre domain name" />
   </component>
 </project>
