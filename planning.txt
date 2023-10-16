@@ -1,0 +1,11 @@
+Flag structure:
+PFFLAG{alphanumerics}
+flag length:
+8 alphanumerics?
+all of this is based on a 64
+Make sure this is in gitignore
+People can't see a gitignore right?
+Check answers with the following file:
+enZsaHZrLmViYQ==
+
+REMINDER TO PUT THIS IN THE GITIGNORE FILE SOMEDAY
